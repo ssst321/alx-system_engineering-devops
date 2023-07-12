@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d, - - | cut -d, -f1
+ls -1 | grep -E '^[a-zA-Z0-9_./-]+$'
